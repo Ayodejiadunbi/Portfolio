@@ -1,0 +1,148 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.navbar{
+    height: 5rem;
+    /* background-color: rgb(87, 87, 190); */
+    background-color: rgb(10, 10, 10);
+    
+}
+
+.nav-item{
+    color: black;
+}
+
+.container1{
+     /* background-color: rgb(98, 115, 211);  */
+     background-color: rgb(20, 20, 54);
+}
+.homeheading{
+    font-family: Arial, Helvetica, sans-serif;
+     /* background-color: rgb(44, 44, 182);  */
+    color: yellowgreen;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5rem;
+}
+.container1 img{
+    padding: 2rem;
+
+}
+
+/* about me */
+
+.container2{
+
+padding-left: 2rem;
+padding-right: 3rem;
+}
+.container2 h3{
+    text-align: center;
+    color: rgb(67, 67, 156);
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    
+}
+.container22 p{
+    margin-bottom: 3rem;
+}
+.container23{
+    margin-bottom: 3rem;
+
+}
+.container2 h4{
+    color: rgb(17, 75, 143);
+}
+.container2 p{
+    color:rgb(72, 14, 138) ;
+}
+.resume h2{
+    text-align: center;
+    color: rgb(67, 67, 156);
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+
+}
+.Education{
+    color: rgb(17, 75, 143);
+
+}
+.educaf{
+    display: flex;
+    gap: 60rem;
+    padding: 4rem;
+}
+
+.container41{
+    display: flex;
+    gap: 50rem;
+    font-size: 1.02rem;
+    padding-right: 2rem;
+    padding-left: 3rem;
+}
+.portfolio{
+    text-align: center;
+}
+.container6{
+    /* height: 80vh; */
+    background-color: rgb(20, 20, 54);
+    padding-bottom: 2rem;
+    
+}
+
+.subcontainer61{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    margin-bottom: 5rem;
+}
+.container63{
+    display: flex;
+    color: rgba(255, 255, 255, 0.63);
+    gap: 7rem;
+}
+.container6image{
+    width: 30rem;
+    border-radius: 5rem;
+    border-color: bisque;
+    padding-left: 3rem;
+}
+.container6words{
+    font-size: 1.5rem;
+    font-style: oblique;
+    
+}
+
+.container66words{
+    margin-top: 4rem;
+    padding-left: 3rem;
+}
+.conatiner64{
+    display: flex;
+    color: rgba(255, 255, 255, 0.63); 
+    gap: 10rem;
+    
+}
+
+.Certification{
+    margin-bottom: 5rem;
+}
+.type{
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+    typing 4s steps(40,end),
+    blink-caret .75s step-end infinite
+    ;
+}
+
+
+@keyframes typing {
+   from  {width: 0 } 
+   to  {width :100%}
+}
